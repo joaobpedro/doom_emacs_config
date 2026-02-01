@@ -92,6 +92,10 @@
 ;; change surrounf key map
 (map! :leader "c b" 'sp-rewrap-sexp)
 
+(setq doom-modeline-icon nil)
+(setq doom-modeline-major-mode-icon nil)
+(setq doom-modeline-major-mode-color-icon nil)
+(setq doom-modeline-major-mode-color-icon nil)
 
 ;; Whenever you reconfigure a package, make sure to wrap your config in an
 ;; `after!' block, otherwise Doom's defaults may override your settings. E.g.
