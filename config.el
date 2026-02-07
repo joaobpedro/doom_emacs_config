@@ -21,8 +21,8 @@
 ;; See 'C-h v doom-font' for documentation and more examples of what they
 ;; accept. For example:
 ;;
-(setq doom-font (font-spec :family "Inconsolata Nerd Font Mono" :size 22 :weight 'regular)
-      doom-variable-pitch-font (font-spec :family "JetBrains Mono" :size 18))
+(setq doom-font (font-spec :family "JetBrainsMono Nerd Font Mono" :size 20 :weight 'regular)
+      doom-variable-pitch-font (font-spec :family "JetBrainsMono Nerd Font Mono" :size 18))
 ;;
 ;; If you or Emacs can't find your font, use 'M-x describe-font' to look them
 ;; up, `M-x eval-region' to execute elisp code, and 'M-x doom/reload-font' to
@@ -85,7 +85,7 @@
           ("EDIT" . "#FFA500")   ; New word 'EDIT' with Orange color
           ("REVIEW" . "#800080") ; Review in Purple
           ("HACK" . "#008000")   ; Hack in Green
-          ("HARDCODED" . "#008000")
+          ("HARDCODED" . "#FF4500")
           )))
 
 
